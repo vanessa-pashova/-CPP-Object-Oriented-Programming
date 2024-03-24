@@ -136,7 +136,7 @@ int main ()
     std::cout << "[ Your point has coordinates -> (" << first.getX() << ", " << first.getY() << ", " << first.getZ() << ") ]" << std::endl;
     first.modifier();
 
-    Point3 secont (10, 11, 12), third(45, 46, 47);
+    Point3 second(10, 11, 12), third(45, 46, 47);
     secont.print_Info();
     third.print_Info();
     
